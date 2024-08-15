@@ -7,20 +7,20 @@ import java.io.*;
 /* Name of the class has to be "Main" only if the class is public. */
 class Ewayrton
 {
-	public static void main (String[] args) throws java.lang.Exception
-	{
-	
-		listaNum();
-		System.out.println();
-		somarImpares();
-		System.out.println();
-		MultiplosDe3Sem3();
-	}
-	
-	
-	
-	public static void listaNum() {
-		
+public static void main (String[] args) throws java.lang.Exception
+{
+
+listaNum();
+System.out.println();
+somarImpares();
+System.out.println();
+MultiplosDe3Sem3();
+}
+
+
+
+public static void listaNum() {
+
         // Cria uma string vazia para armazenar os números
         String numeros = "";
 
@@ -39,14 +39,14 @@ class Ewayrton
         System.out.println("Lista dos números de 1 a 100:");
         System.out.println(numeros);
     }
-    
-    
-    
-    
-    
-    
-    
-    
+   
+   
+   
+   
+   
+   
+   
+   
      public static int somarImpares() {
         int soma = 0;
 
@@ -57,10 +57,10 @@ class Ewayrton
                 soma += i; // Adiciona o número ímpar à soma
             }
         }
-		System.out.println("A soma dos números ímpares entre 10 e 1000 é: " + soma);
+System.out.println("A soma dos números ímpares entre 10 e 1000 é: " + soma);
         return soma;
     }
-    
+   
     public static void MultiplosDe3Sem3() {
         // Cria uma string vazia para armazenar os números
         String result = "";
@@ -83,7 +83,7 @@ class Ewayrton
 
          System.out.println("Todos os números múltiplos de 3 entre 1 e 200 que não terminam em 3 são:");
         System.out.println(result.toString());
-    }
-    
-    
+    }
+   
+   
 }
