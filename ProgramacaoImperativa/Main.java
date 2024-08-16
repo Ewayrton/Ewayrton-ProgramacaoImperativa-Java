@@ -26,7 +26,7 @@ public static void listaNum() {
 
         // Loop de 1 a 100
         for (int i = 1; i <= 100; i++) {
-            // Adiciona o número atual ao StringBuilder
+            // Adiciona o número atual ao String
             numeros += i;
 
             // Se não for o último número, adiciona uma vírgula
@@ -69,7 +69,7 @@ System.out.println("A soma dos números ímpares entre 10 e 1000 é: " + soma);
         for (int i = 1; i <= 200; i++) {
             // Verifica se o número é múltiplo de 3 e não termina em 3
             if (i % 3 == 0 && i % 10 != 3) {
-                // Adiciona o número atual ao StringBuilder
+                // Adiciona o número atual ao string
                 result  += i;
 
                 // Adiciona uma vírgula e um espaço após o número, exceto no último
