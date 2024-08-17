@@ -47,7 +47,7 @@ public static void listaNum() {
    
    
    
-     public static int somarImpares() {
+     public static void somarImpares() {
         int soma = 0;
 
         // Loop de 10 a 1000
@@ -58,7 +58,7 @@ public static void listaNum() {
             }
         }
 System.out.println("A soma dos números ímpares entre 10 e 1000 é: " + soma);
-        return soma;
+        
     }
    
     public static void MultiplosDe3Sem3() {
